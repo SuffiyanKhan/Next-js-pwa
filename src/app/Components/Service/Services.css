@@ -1,0 +1,26 @@
+.card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; 
+  }
+  
+  .card .card-img {
+    width: 100%;
+    height: auto;
+    display: block; 
+  }
+  
+  .cards-detail {
+    display: none; 
+    transition: all 0.3s ease; 
+    transition-delay: 0.2s;
+  }
+  
+  .card:hover .cards-detail {
+    display: block; 
+  }
+
+
+
+
+
